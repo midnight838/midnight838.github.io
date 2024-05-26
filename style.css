@@ -20,7 +20,7 @@ html {
 }
 
 .down_10 {
-    padding-top: 10%;
+    padding-top: 10px;
 }
 
 .down_page {
@@ -38,6 +38,8 @@ html {
 .big_picture {
     border-radius: 8px;
     width: 190px;
+    height: 73%;
+    object-fit: cover;
 }
 
 .content_center {
@@ -60,4 +62,24 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+button {
+    border: none;
+    transition-duration: 400ms;
+    border-radius: 8px;
+    padding: 195px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: var(--primary);
+}
+
+button:hover {
+    border: none;
+    cursor: pointer;
+    background-color: var(--accent);
 }
